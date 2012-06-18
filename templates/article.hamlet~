@@ -7,7 +7,7 @@
     <ul>
      <a href=@{ArticleR articleId}>#{articleTitle article}
 <#navbar>
-      <li><a href="/">Home</a>
+      <li><a href=RootR>Home</a>
       <li><a href="/quick">Quick Start</a><ul>
           <li><a href="/tutorial">Tutorial</a></li></ul>
       <li><a href="/contact">Contact Me</a>
