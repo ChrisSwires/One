@@ -3,6 +3,19 @@
   top: 0;
   right: 0;
 }
+
+#sidemain {
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    border: #CCC solid 2px;
+    border-radius: 10px;
+    margin: 1em;
+    width: 10em;
+    background: #F2F2F2;
+    line-height: 1.5em;
+    color: #333; }
+
 h1 {
    font-family: Helvetica, sans-serif;
    font-size:24px;
