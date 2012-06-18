@@ -14,7 +14,6 @@ module Foundation
 
 import Prelude
 import Yesod
-import Yesod.RssFeed
 import Yesod.Static
 import Yesod.Auth
 import Yesod.Auth.BrowserId
