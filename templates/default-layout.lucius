@@ -1,3 +1,8 @@
+#sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 h1 {
    font-family: Helvetica, sans-serif;
    font-size:24px;
@@ -39,7 +44,7 @@ h1 {
 body {
     font-family: Helvetica, sans-serif; 
     font-size: 14px; 
-    background: url(http://hackage.haskell.org/platform/images/background.jpg); background-repeat: no-repeat }
+    background: url(/static/background.jpg); background-repeat: no-repeat }
 h2 {
    font-family: Helvetica, sans-serif;
    font-size:18px;
@@ -66,3 +71,6 @@ a { color: #A56; }
 a:hover { color: #C58; }
 a:active { color: #C58; }
 a:visited { color: #943; }
+
+
+

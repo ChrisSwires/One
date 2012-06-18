@@ -4,12 +4,15 @@ module Paths_One (
     getDataFileName
   ) where
 
+import qualified Control.Exception as Exception
 import Data.Version (Version(..))
 import System.Environment (getEnv)
+catchIO :: IO a -> (Exception.IOException -> IO a) -> IO a
+catchIO = Exception.catch
+
 
 version :: Version
 version = Version {versionBranch = [0,0,0], versionTags = []}
-
 bindir, libdir, datadir, libexecdir :: FilePath
 
 bindir     = "/home/swires/.cabal/bin"
@@ -18,10 +21,10 @@ datadir    = "/home/swires/.cabal/share/One-0.0.0"
 libexecdir = "/home/swires/.cabal/libexec"
 
 getBinDir, getLibDir, getDataDir, getLibexecDir :: IO FilePath
-getBinDir = catch (getEnv "One_bindir") (\_ -> return bindir)
-getLibDir = catch (getEnv "One_libdir") (\_ -> return libdir)
-getDataDir = catch (getEnv "One_datadir") (\_ -> return datadir)
-getLibexecDir = catch (getEnv "One_libexecdir") (\_ -> return libexecdir)
+getBinDir = catchIO (getEnv "One_bindir") (\_ -> return bindir)
+getLibDir = catchIO (getEnv "One_libdir") (\_ -> return libdir)
+getDataDir = catchIO (getEnv "One_datadir") (\_ -> return datadir)
+getLibexecDir = catchIO (getEnv "One_libexecdir") (\_ -> return libexecdir)
 
 getDataFileName :: FilePath -> IO FilePath
 getDataFileName name = do
