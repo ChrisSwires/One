@@ -58,7 +58,7 @@ h1 {
 body {
     font-family: Helvetica, sans-serif; 
     font-size: 14px; 
-    background: url(/background.jpg); background-repeat: no-repeat }
+    background: url(/static/background.jpg); background-repeat: no-repeat }
 h2 {
    font-family: Helvetica, sans-serif;
    font-size:18px;
