@@ -2,7 +2,8 @@
         <g:plusone></g:plusone> <a href="https://twitter.com/share" class="twitter-share-button" data-via="ChrisSwires" data-hashtags="Yesod">Tweet</a> <script type="text/javascript" src="http://www.reddit.com/static/button/button1.js"></script>
 <#navbar>
       <li><a href="/">Home</a>
-      <li><a href="/quick">Quick Start</a><ul>
+      <li><a href = "#">Guides</a><ul>
+          <li><a href="/quick">Quick Start</a></li>
           <li><a href="/tutorial">Tutorial</a></li></ul>
       <li><a href="/contact">Contact Me</a>
       <li><a href="/about">About</a>
@@ -25,6 +26,10 @@
           <li><a href="/logictest">Logic Test</a></li>
           <li><a href="/ajaxtest">Ajax Test</a></li>
           <li><a href="/asynctest">Asynchronous Test</a></li></ul>
+
+      <li><a href="#">Account</a><ul>
+          <li><a href="/auth/login">Login</a><li>
+          <li><a href="/auth/logout">Logout</a></li></ul>
 <head>
 
  <script>

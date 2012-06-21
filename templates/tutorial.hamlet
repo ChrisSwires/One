@@ -26,6 +26,9 @@
           <li><a href="/logictest">Logic Test</a></li>
           <li><a href="/ajaxtest">Ajax Test</a></li>
           <li><a href="/asynctest">Asynchronous Test</a></li></ul>
+      <li><a href="#">Account</a><ul>
+          <li><a href="/auth/login">Login</a><li>
+          <li><a href="/auth/logout">Logout</a></li></ul>
 <head>
 <script>
    var _gaq = _gaq || [];
