@@ -189,3 +189,10 @@
   (major1) == 0 && (major2) <  2 || \
   (major1) == 0 && (major2) == 2 && (minor) <= 0)
 
+/* package One-0.0.0 */
+#define VERSION_One "0.0.0"
+#define MIN_VERSION_One(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  0 || \
+  (major1) == 0 && (major2) == 0 && (minor) <= 0)
+

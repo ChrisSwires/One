@@ -1,11 +1,11 @@
 <#navbar>
-      <li><a href="http://imranshafikhan.com">Home</a>
-      <li><a href="http://imranshafikhan.com/quick">Quick Start</a><ul>
-          <li><a href="http://imranshafikhan.com/tutorial">Tutorial</a></li></ul>
-      <li><a href="http://imranshafikhan.com/contact">Contact Me</a>
-      <li><a href="http://imranshafikhan.com/about">About</a>
-      <li><a href="http://imranshafikhan.com/blog">Blog</a>
-      <li><a href="http://imranshafikhan.com/links">Links</a><ul>
+      <li><a href="/">Home</a>
+      <li><a href="/quick">Quick Start</a><ul>
+          <li><a href="/tutorial">Tutorial</a></li></ul>
+      <li><a href="/contact">Contact Me</a>
+      <li><a href="/about">About</a>
+      <li><a href="/blog">Blog</a>
+      <li><a href="/links">Links</a><ul>
           <li><a href="http://yannesposito.com/Scratch/en/blog/Yesod-tutorial-for-newbies/">Tutorial</a></a></li>
           <li><a href="http://yesodweb.com">Yesod Home</a></a></li>
           <li><a href="http://tryhaskell.org">Browser based Haskell tutorial</a></li>
@@ -18,11 +18,11 @@
           <li><a href="#">AJAX Test</a></li>
           <li><a href="#">Asynchronous Test</a></li></ul>
       <li><a href="#">Yesod</a><ul>
-          <li><a href="http://imranshafikhan.com/speedtest">Speed Test</a></li>
-          <li><a href="http://imranshafikhan.com/dbtest">Database Test</a></li>
-          <li><a href="http://imranshafikhan.com/logictest">Logic Test</a></li>
-          <li><a href="http://imranshafikhan.com/ajaxtest">Ajax Test</a></li>
-          <li><a href="http://imranshafikhan.com/asynctest">Asynchronous Test</a></li></ul> 
+          <li><a href="/speedtest">Speed Test</a></li>
+          <li><a href="/dbtest">Database Test</a></li>
+          <li><a href="/logictest">Logic Test</a></li>
+          <li><a href="/ajaxtest">Ajax Test</a></li>
+          <li><a href="/asynctest">Asynchronous Test</a></li></ul> 
 <head>
 <script>
    var _gaq = _gaq || [];
